@@ -1,0 +1,60 @@
+@import url('/assets/style/Poppins-Black.ttf');
+@import url('/assets/style/Poppins-BlackItalic.ttf');
+@import url('/assets/style/Poppins-Bold.ttf');
+@import url('/assets/style/Poppins-BoldItalic.ttf');
+@import url('/assets/style/Poppins-ExtraBold.ttf');
+@import url('/assets/style/Poppins-ExtraBoldItalic.ttf');
+@import url('/assets/style/Poppins-Light.ttf');
+* {
+    margin: 0px;
+    background-color: #22459C;
+}
+
+.h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "Poppins";
+    font-size: 30px;
+    background-color: #22459C;
+    color: aliceblue;
+}
+
+.input {
+    position: absolute;
+    width: 730px;
+    height: 63px;
+    left: 351px;
+    top: 218px;
+    background: #716B6B;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    z-index: -1;
+}
+
+.input:focus {
+    outline: 0;
+}
+
+.button {
+    position: absolute;
+    width: 214px;
+    height: 40px;
+    left: 570px;
+    top: 306px;
+    background-color: #C4C4C4;
+    color: #22459C;
+    border: 0px;
+    border-radius: 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.button:hover {
+    background-color: #000000;
+    color: #C4C4C4;
+}
